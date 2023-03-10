@@ -1,0 +1,15 @@
+.sellbanar{
+    position: relative;
+}
+.sellbanar img{
+    width: 100%;
+    height: 50vh;
+}
+.banartext{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    
+    
+}

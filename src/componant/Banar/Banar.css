@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+#banar-img {
+    width: 100%;
+    height: 40vh;
+
+}
+
+#banar-img-contein {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#overlay-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#overlay-centered h1 {
+    font-family: 'Gloock', serif;
+    background: rgb(81, 89, 110);
+    background: radial-gradient(circle, rgba(81, 89, 110, 1) 20%, rgba(162, 194, 241, 0) 100%);
+    padding: 10px 70px;
+    margin-bottom: 30px;
+}

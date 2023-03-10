@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+.nvbr-btn {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    margin: 0 15px;
+    font-size: 20px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#logheader {
+    font-family: 'Gloock', serif;
+}
+
+#log-btn a {
+    text-decoration: none;
+    color: rgb(34, 32, 32);
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+#log-btn a.active,
+#log-btn a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#mod-body a {
+    text-decoration: none;
+    color: rgb(34, 32, 32);
+    margin: 0 15px;
+    font-weight: 500;
+}
+#mod-body a.active,
+#mod-body a:hover{
+    color: blue;
+    text-decoration: underline;
+}

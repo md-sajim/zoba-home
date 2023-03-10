@@ -1,0 +1,44 @@
+.table-res {
+    height: 85vh;
+    overflow: scroll;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .table-res {
+        width: 335px;
+        overflow-x: scroll;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .table-res {
+        width: 500px;
+        overflow-x: scroll;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .table-res {
+        width: 700px;
+        overflow-x: scroll;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .table-res {
+        width: 900px;
+        overflow-x: scroll;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .table-res {
+        width: 1000px;
+        overflow-x: scroll;
+    }
+}
